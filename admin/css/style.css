@@ -1,0 +1,31 @@
+/*#temp_screen{width:110%;}*/
+
+*{padding:0; margin:0; font-family: Verdana, Geneva, sans-serif;}
+body{background: #400040; padding:1%; box-sizing: border-box !important}
+
+
+#header{border-radius: 3px; width:100%; height: 50px; background: #800080; margin-top: 10px;}
+
+#bodyleft{float: left; border-radius: 3px; width:24%; height:500px; background: #400040; margin: 20px 10px 10px 0px;}
+#bodyleft h3{text-align: center; height: 40px; line-height: 40px; background: #800080; color: #fff;}
+#bodyleft ul{margin-top: 10px; list-style-type: none;}
+#bodyleft ul li{border-radius: 3px; height: 30px; line-height: 30px; padding-left: 3%;}
+#bodyleft ul li a{display: block; text-decoration: none; color:#fff;}
+#bodyleft ul li:hover{background: #800080;}
+
+#bodyright{padding-bottom: 2%; border-radius: 3px; float: left; border-radius: 3px; width:74.5%; min-height: 500px; background: #800080; /*clock wise margin(top, right, bottom and left)*/margin: 20px 0px 10px 0px;}
+#bodyright h3{border-bottom:2px solid #400040; text-align: center; height: 40px; line-height: 40px; background: #800080; color: #fff;}
+#bodyright form table{width:95%; margin: auto; margin-top:10px;}
+#bodyright form table tr th {padding:0% 2% 0% 2%; box-sizing: border-box; font-size: 20px; color:#fff; text-align: left; background: #800080; height: 40px;}
+#bodyright form table tr td{padding-left: 3%; width:50%; height:35px; color:#fff; }
+#bodyright form table tr td input{width:100%; height: 30px; border-radius: 3px; border:1px solid #fff; padding-left: 2%;}
+#bodyright form table tr td select{width:100%; height: 30px; border-radius: 3px; border:1px solid #fff; padding-left: 2%;}
+#bodyright form table tr td a{text-decoration: none; color:#fff;}
+#bodyright form button{margin-top: 20px; height: 30px; color: #fff; border-radius: 3px; width:200px; background: #800080; border:2px solid #400040;}
+#bodyright form button:hover{background: #400040;}
+
+#add_cat{margin-top: 20px; border-top: 2px solid #400040;}
+.scroll{overflow-x: scroll;}
+.scroll form table tr th{text-align: center !important; padding: 0% !important; background: #400040 !important; font-size: 16px !important;  }
+.scroll form table tr td{padding-left: 2% !important; min-width: 150px; height: 35px;}
+.scroll form table tr td img{height: 30px; width: 30px}
